@@ -1,8 +1,13 @@
 # Robot-Motion-Planning-with-Potential-Field-Approach
   The Motion Planing in 2D space is done using potential field approach.
   Special Thanks : Atul Thakur Sir(From IIT Patna)
+  
+**Problem Statement**\
+1.For an R^2configuration space of size 100m × 100m, define an additive potential field with attractive potential as a combination of conic as well as quadratic potential and repulsive potential determined using Brushfire algorithm. Also determine the gradient of the potential function. Now implement your equations in a Matlab or any other programming language of your choice. Display the gradient vector field using arrows (in Matlab use quiver command). The arrows should be made at (1,1), (2,1)…(100,1), (1,2), (2,2)…(100,2),…(100,100) with the length of each arrow representing the magnitude of the gradient and direction of the arrow the direction of the gradient. You may use the enclosed Matlab implementation of Brushfire algorithm for determining minimum distance function. Note that the obstacles can be loaded via the enclosed image file which can be edited in MS Paint. In your report clearly describe the steps of your entire approach with all the equations. Make a list of the parameters  that need to be tuned. Also, show how/whether the vector field changes with variation of tunable parameters and describe.
 
-  The Approach taken:
+2.Now, implement a gradient descent approach to calculate a path from any given start point to goal location using the results in (1). Assume that start and goal location will never be specified on any obstacles.  Test your algorithm for several start and goal locations. Comment on completeness of the approach you developed.
+
+  **The Approach taken:**
   
 	1.The Brushfire algorithm divides the picture into n*n pixels and assigns each pixel a value according to its distance from the wall or obstacle.
 	  The Attractive Potential Function are made as :
