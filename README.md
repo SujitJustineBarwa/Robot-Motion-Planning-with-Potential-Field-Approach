@@ -85,12 +85,10 @@ Here, p stores all the q points and hence is further used to plot the path.
 
 
 
-d* : this Parameter is responsible for distance from goal at which the conic potential changes to quadratic potential. 
+d* : this Parameter is responsible for distance from goal at which the conic potential changes to quadratic potential.The size of the arrow increased as d_star increases. This is because the gradient of conic and quadratic potential are now close.The Path is plotted in blue dots.
 <p align="center">
   <img src="https://raw.githubusercontent.com/SujitJustineBarwa/Robot-Motion-Planning-with-Potential-Field-Approach/main/Images/img5.PNG" />
 </p>
- 
-The size of the arrow increased as d_star increases. This is because the gradient of conic and quadratic potential are now close.
 
 Q* ∶ This parameter can be also called the sphere of influence for the obstacles.The Gradient near the obstacle weakens as Q_star Increases.
  
